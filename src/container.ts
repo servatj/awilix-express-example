@@ -2,7 +2,7 @@ import { createContainer, asClass, asValue } from "awilix";
 import { UserRepository } from "./infra/UserRepository";
 import { UserService } from "./services/UserService";
 import { UserController } from "./controllers/UserController";
-import { logger } from "./Logger";
+import { logger } from "./logger";
 import { CounterController } from "./controllers/CounterController";
 import { CounterService } from "./services/CounterService";
 
