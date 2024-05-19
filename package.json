@@ -1,0 +1,22 @@
+{
+  "name": "awilix-express",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon --exec ts-node main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "awilix": "^10.0.2",
+    "express": "^4.19.2"
+  }
+}
